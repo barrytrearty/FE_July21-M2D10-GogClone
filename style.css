@@ -128,6 +128,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .icons-holder {
@@ -166,17 +167,90 @@ hr {
 .game-cart {
   display: none;
   margin-left: 0.4rem;
-  padding: 0.5rem;
+  padding: 0.3rem;
   padding-left: 0.4rem;
   padding-right: 0.4rem;
   background-color: rgb(104, 148, 79);
   font-size: 0.6rem;
   font-weight: 600;
   color: #ccc;
-  box-shadow: rgb(48, 68, 37) 2px 1px;
+  /* box-shadow: rgb(48, 68, 37) 2px 1px; */
 }
 
 /* .game-price,
 .consoles-icons {
   display: inline-block;
 } */
+
+#discover .game-card img {
+  padding: 0.25rem;
+  width: 100px;
+  height: 75px;
+}
+
+#discover .game-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ccc;
+}
+
+#discover .game-card:hover {
+  background-color: white;
+}
+
+#discover .game-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.game-card-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.discover-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#discover .consoles-icons div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#discover .game-cart {
+  margin-left: 0.4rem;
+  padding: 0.2rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color: rgb(104, 148, 79);
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.discover-price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#discover-second-col img {
+  height: 120px;
+}
+
+#discover-second-col img.big-discover {
+  height: 250px;
+}
+
+#discover-second-col img.second-big-discover {
+  height: 240px;
+}
+
+#news img {
+  height: 120px;
+}
