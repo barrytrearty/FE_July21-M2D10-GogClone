@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;500;600;900&display=swap");
+
 body {
   background-color: #ccc;
+  font-family: "Lato";
 }
 
 /* .purple-bit {
@@ -8,13 +11,19 @@ body {
   background-color: blueviolet;
 } */
 
+img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
 .nav-bar-style {
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
   /* z-index: 1; */
   background-color: rgba(27, 25, 25, 0.897);
-  color: white;
-  font-size: small;
+  color: #ccc;
+  font-size: 0.7rem;
   padding-top: 0.1rem;
   padding-bottom: 0.2rem;
 }
@@ -45,14 +54,35 @@ body {
 h2 {
   display: inline-block;
   font-size: small;
+  font-weight: 600;
 }
 
-.first-row img {
-  width: 100%;
+.game-card:hover .icons-holder {
+  display: none;
+}
+
+.game-card:hover .game-cart {
+  display: flex;
+}
+
+/* .game-card:hover .game-price {
+  align-self: flex-end;
+} */
+
+.game-card img {
+  height: 100px;
+}
+
+#flash-deals .game-card img {
+  height: 150px;
+}
+
+#whats-good .game-card img.big-good {
+  height: 275px;
 }
 
 .tagline {
-  font-size: small;
+  font-size: 0.6rem;
 }
 
 .tagline .col-8 {
@@ -68,10 +98,85 @@ h2 {
 }
 
 hr {
-  margin-top: 0.33rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.6rem;
 }
 
 .image-ad {
+  object-fit: cover;
   width: 100%;
   height: 10rem;
 }
+
+.game-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-info {
+  padding: 0.5rem;
+}
+
+.game-title {
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+  /* font-weight: bold; */
+}
+
+.consoles-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.consoles-icons i {
+  font-size: 0.5rem;
+}
+
+.cover-image {
+  object-fit: cover;
+}
+
+.discount {
+  margin-left: auto;
+  margin-right: 0.1rem;
+  padding: 0.2rem;
+  background-color: rgb(71, 6, 71);
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #ccc;
+  box-shadow: rgb(41, 4, 41) 1px;
+}
+
+.game-price {
+  align-self: flex-end;
+  font-weight: bold;
+  /* display: inline-block; */
+  font-size: 0.75rem;
+  /* padding-bottom: 0.3rem; */
+  /* text-align: right; */
+}
+
+.game-cart {
+  display: none;
+  margin-left: 0.4rem;
+  padding: 0.5rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color: rgb(104, 148, 79);
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #ccc;
+  box-shadow: rgb(48, 68, 37) 2px 1px;
+}
+
+/* .game-price,
+.consoles-icons {
+  display: inline-block;
+} */
