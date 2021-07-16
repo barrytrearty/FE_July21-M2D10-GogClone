@@ -37,3 +37,41 @@ body {
 .icon-nav li {
   margin-right: 2rem;
 }
+
+/* .first-row .col {
+  height: 100px;
+} */
+
+h2 {
+  display: inline-block;
+  font-size: small;
+}
+
+.first-row img {
+  width: 100%;
+}
+
+.tagline {
+  font-size: small;
+}
+
+.tagline .col-8 {
+  text-align: left;
+}
+
+.tagline .col-4 {
+  text-align: right;
+}
+
+.tagline strong {
+  color: purple;
+}
+
+hr {
+  margin-top: 0.33rem;
+}
+
+.image-ad {
+  width: 100%;
+  height: 10rem;
+}
