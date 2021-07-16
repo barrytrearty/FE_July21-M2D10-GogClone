@@ -1,0 +1,39 @@
+body {
+  background-color: #ccc;
+}
+
+/* .purple-bit {
+  position: relative;
+  z-index: -1;
+  background-color: blueviolet;
+} */
+
+.nav-bar-style {
+  font-weight: 600;
+  position: relative;
+  /* z-index: 1; */
+  background-color: rgba(27, 25, 25, 0.897);
+  color: white;
+  font-size: small;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.nav-bar-style a {
+  color: white;
+  text-decoration: none;
+}
+
+.icon-nav {
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-nav li {
+  margin-right: 2rem;
+}
