@@ -233,6 +233,22 @@ hr {
   color: #ccc;
 }
 
+.carousel-indicators li {
+  position: relative;
+  /* bottom: 50px; */
+  background-color: rgb(71, 6, 71);
+}
+
+.carousel-control-prev-icon {
+  background-color: rgb(117, 112, 117);
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+  background-color: rgb(117, 112, 117);
+  border-radius: 50%;
+}
+
 .discover-price {
   display: flex;
   flex-direction: row;
@@ -254,3 +270,24 @@ hr {
 #news img {
   height: 120px;
 }
+
+#news2 img {
+  height: 120px;
+}
+
+#news3 img {
+  height: 120px;
+}
+
+/* 
+#test img {
+  width: 100%;
+}
+
+.BIG-COLS img {
+  height: 184px;
+}
+
+.NESTED-COLS img {
+  height: 92px;
+} */
